@@ -1,0 +1,22 @@
+{
+    "name": "notsoweb/laravel-mongodb-session",
+    "description": "Controlador de sesiones de laravel para mongodb",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Notsoweb\\LaravelMongoDB\\Session\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moisés Cortés C.",
+            "email": "moises.cortes@notsoweb.com"
+        }
+    ],
+    "require": {
+        "mongodb/laravel-mongodb": "^4.7",
+        "illuminate/session":"^11.19",
+        "notsoweb/api-response": "^1.0"
+    }
+}
